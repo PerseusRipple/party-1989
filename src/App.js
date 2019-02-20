@@ -4,7 +4,7 @@ import Movies from './components/Movies'
 import Footer from './components/Footer'
 import FontAwesome from 'react-fontawesome'
 
-const myMovie = {}
+const Movie = {}
 
 class App extends Component {
   render() {

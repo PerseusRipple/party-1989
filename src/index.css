@@ -36,3 +36,14 @@ img.image {
   justify-content: center;
   align-content: center;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: rgb(50, 252, 0);
+}
+
+.icon {
+  color: rgb(252, 0, 189);
+}
