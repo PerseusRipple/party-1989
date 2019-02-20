@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 class Header extends Component {
   render() {
     return (
-      <section>
+      <section className="container">
         <h2>
-          <span>1989 Movies</span>
+          <span className="header">1989 Movies</span>
         </h2>
       </section>
     )
