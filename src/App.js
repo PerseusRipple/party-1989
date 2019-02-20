@@ -1,9 +1,20 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Header from './components/Header'
+import Movies from './components/Movies'
+import Footer from './components/Footer'
+import FontAwesome from 'react-fontawesome'
+
+const myMovie = {}
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <>
+        <Header />
+        <Movies />
+        <Footer />
+      </>
+    )
   }
 }
 
